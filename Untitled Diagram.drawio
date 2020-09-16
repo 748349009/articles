@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T09:43:06.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="JfEbFs_Wv39kWvD3bvWE" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-16T09:45:16.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="fPlyLcwVCUAFimpv6vaF" version="13.7.1" type="github">
   <diagram id="n4F9L2wBliBhwBtBOZE6" name="Page-1">
     <mxGraphModel dx="1186" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="jNoREHAGmB-sMBPCe3fn-34" value="product_live" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="270" y="470" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="jNoREHAGmB-sMBPCe3fn-35" value="+productId&#xa;+liveId&#xa;+liveStartTime&#xa;+liveEndTime&#xa;+冗余家长会标签&#xa;+冗余赠课标签&#xa;+冗余课程上课时间&#xa;+冗余课程下课时间&#xa;+冗余直播平台(课程结束时)&#xa;+冗余讲次(基于学习路径)&#xa;+..." style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jNoREHAGmB-sMBPCe3fn-34" vertex="1">
+        <mxCell id="jNoREHAGmB-sMBPCe3fn-35" value="+productId&#xa;+liveId&#xa;+liveStartTime&#xa;+liveEndTime&#xa;+冗余家长会标签&#xa;+冗余赠课标签&#xa;+冗余课程上课时间&#xa;+冗余课程下课时间&#xa;+冗余直播平台(课程结束时)&#xa;+冗余讲次(基于学习路径)&#xa;+冗余直播状态&#xa;+..." style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jNoREHAGmB-sMBPCe3fn-34" vertex="1">
           <mxGeometry y="30" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="jNoREHAGmB-sMBPCe3fn-36" value="pe_product_Info" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
