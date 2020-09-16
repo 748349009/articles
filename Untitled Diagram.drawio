@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T08:06:37.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="H7ATWNLllVVmEa29qiGk" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-16T09:02:10.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="gllyIsbDV8L6OvkdXEq_" version="13.7.1" type="github">
   <diagram id="OJfU_61ZrNCylvfCMw03" name="Page-1">
     <mxGraphModel dx="1186" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="8aUG72FUFNIAJ1knr8W7-30" value="user_product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="239" y="850" width="181" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="8aUG72FUFNIAJ1knr8W7-31" value="+userId&#xa;+productId&#xa;+roleId&#xa;+subjectId&#xa;+考季id&#xa;+&lt;引流/短期班/长期班/测试/...&gt;&#xa;+冗余&#xa;直播开始时间&#xa;+冗余&#xa;直播结束时间&#xa;+trade off&#xa;构建产品状态(进行中,未开始,已结束)&#xa;+" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="8aUG72FUFNIAJ1knr8W7-30" vertex="1">
+        <mxCell id="8aUG72FUFNIAJ1knr8W7-31" value="+userId&#xa;+productId&#xa;+roleId&#xa;+冗余subjectId&#xa;+冗余liveStartTime&#xa;+冗余liveEndTime&#xa;+trade off是否需要增加状态&#xa;构建产品状态(进行中,未开始,已结束)&#xa;+冗余overTime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="8aUG72FUFNIAJ1knr8W7-30" vertex="1">
           <mxGeometry y="30" width="181" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8aUG72FUFNIAJ1knr8W7-32" value="live_status" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -118,7 +118,7 @@
         <mxCell id="8aUG72FUFNIAJ1knr8W7-36" value="pe_product_Info" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="675" y="850" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="8aUG72FUFNIAJ1knr8W7-37" value="+productId&#xa;+liveId&#xa;+liveStartTime&#xa;+liveEndTime&#xa;+productLine产品线" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="8aUG72FUFNIAJ1knr8W7-36" vertex="1">
+        <mxCell id="8aUG72FUFNIAJ1knr8W7-37" value="+productId&#xa;+liveId&#xa;+liveStartTime&#xa;+liveEndTime&#xa;+productLine产品线&#xa;+考季id&#xa;+&lt;引流/短期班/长期班/测试/...&gt;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="8aUG72FUFNIAJ1knr8W7-36" vertex="1">
           <mxGeometry y="30" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8aUG72FUFNIAJ1knr8W7-38" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
